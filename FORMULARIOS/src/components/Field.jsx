@@ -5,7 +5,12 @@ const Content = styled.span`
     flex-direction: column;
 `
 const Label = styled.label``
-const Input = styled.input``
+const Input = styled.input`
+    padding: .7rem;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: .5rem;
+`
 
 const Text = ({label, name, type, value, placeholder, register, required}) => (
     <Content>
