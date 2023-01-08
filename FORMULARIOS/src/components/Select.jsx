@@ -1,11 +1,13 @@
 import styled from 'styled-components'
 
 const Seletor = styled.select`
-padding: .5rem;
-background-color: transparent;
-border: 1px solid;
-border-radius: .5rem;
-
+    padding: .5rem;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: .5rem;
+`
+const Option = styled.option`
+    font-family: 'Poppins', sans-serif;
 `
 const Select = ({ name, label, value, }) => {
     const options = [
@@ -22,9 +24,9 @@ const Select = ({ name, label, value, }) => {
         id={name}
         multiple
         >
-            <option value={value}>Selecione o bairro</option>
+            <Option value={""} >Selecione o bairro</Option>
 
-            {options.map((opt)=>(<option value={opt.id} key={opt.name}>{opt.name}</option>)
+            {options.map((opt)=>(<Option value={opt.id} key={opt.name}>{opt.name}</Option>)
             )}
         </Seletor>
         </>
