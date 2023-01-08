@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.fde12410.css","mappings":"AAAA,MACI,kBAAmB,CACnB,oBAAqB,CACrB,cACJ,CACA,KAEI,wBAAyB,CADzB,8BAEJ","sources":["index.css"],"sourcesContent":[":root{\n    --DarkBlue: #33576b;\n    --MediumBlue: #57788b;\n    --Gray: #d2d7dc;\n}\nbody{\n    font-family: 'Poppins', sans-serif;\n    background-color: #f5f5f5;\n}"],"names":[],"sourceRoot":""}
